@@ -1,0 +1,10 @@
+1.What happens when the number of hidden nodes increase?
+
+As the number of hidden nodes increases, the neural network's ability to learn complex patterns in the data improves, enhancing both training and validation accuracy initially. However, after a certain point, the model may begin to overfit, learning the training data too thoroughly, including noise, and resulting in poorer performance on new, unseen data.
+
+2.Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+
+Initial Increase: The model's accuracy improves as it captures more patterns.
+Optimal Point: Validation accuracy peaks when the model has just the right capacity.
+Overfitting: After this peak, validation accuracy may decline due to overfitting, while training accuracy continues to rise or levels off.
